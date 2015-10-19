@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\exploded-aar\adad\actionbarsherlock\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53307dc2bd2b69fd5533458ee11885f55807de4b">
+        <dex dex="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\pre-dexed\debug\android-support-v4-0bfa671903f3807d57e07fbbf3b8d35d55b58787.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\exploded-aar\adad\actionbarsherlock\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="39a6a2fa7ec359fe7163ced51ac2460f85b8fc82">
+        <dex dex="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\pre-dexed\debug\classes-93865e34e1033d1ba25dbb85f5cb441924886a22.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\exploded-aar\adad\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeb99895855ab7bd3336057733619d6ae575f366">
+        <dex dex="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\pre-dexed\debug\classes-2d52fd509af7e9cdd302447d1200aebddb397b45.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\libs\RootTools-3.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0366ac8a28a574b3964f360c027ad287d173cfa7">
+        <dex dex="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\pre-dexed\debug\RootTools-3.4-6d7877cf312216ff6d62972fcc6c1a3924ba990a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\exploded-aar\adad\library\unspecified\jars\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="34bb698f35fc1d948a9474729ed96492c4cd36f6">
+        <dex dex="C:\Users\Administrator\Desktop\adad\adblockplusandroid-master\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-690730be43ed57331b77d16eee921463993956bd.jar" />
+    </item>
+
+</items>

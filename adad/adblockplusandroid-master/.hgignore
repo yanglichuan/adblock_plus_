@@ -1,0 +1,10 @@
+syntax: glob
+
+ant.properties
+local.properties
+proguard.cfg
+crowdin.yaml
+bin
+libs/armeabi*
+obj
+gen

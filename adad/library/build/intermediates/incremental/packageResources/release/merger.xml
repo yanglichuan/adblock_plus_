@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Administrator\Desktop\adad\library\res"><file name="preference" path="C:\Users\Administrator\Desktop\adad\library\res\layout\preference.xml" qualifiers="" type="layout"/><file name="preference_widget_switch" path="C:\Users\Administrator\Desktop\adad\library\res\layout\preference_widget_switch.xml" qualifiers="" type="layout"/><file name="preference" path="C:\Users\Administrator\Desktop\adad\library\res\layout-v11\preference.xml" qualifiers="v11" type="layout"/><file name="preference" path="C:\Users\Administrator\Desktop\adad\library\res\layout-v21\preference.xml" qualifiers="v21" type="layout"/><file path="C:\Users\Administrator\Desktop\adad\library\res\values\attrs.xml" qualifiers=""><declare-styleable name="asb_SwitchBackportTheme">
+        <attr format="reference" name="asb_switchPreferenceStyle"/>
+    </declare-styleable><declare-styleable name="asb_SwitchPreference">
+        <!--
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is checked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        -->
+        <attr format="reference" name="asb_summaryOn"/>
+        <!--
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is unchecked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        -->
+        <attr format="reference" name="asb_summaryOff"/>
+        <!--
+             The text used on the switch itself when in the "on" state.
+             This should be a very SHORT string, as it appears in a small space.
+        -->
+        <attr format="reference" name="asb_switchTextOn"/>
+        <!--
+             The text used on the switch itself when in the "off" state.
+             This should be a very SHORT string, as it appears in a small space.
+        -->
+        <attr format="reference" name="asb_switchTextOff"/>
+        <!--
+             The state (true for on, or false for off) that causes dependents to be disabled. By default,
+             dependents will be disabled when this is unchecked, so the value of this preference is false.
+        -->
+        <attr format="boolean" name="asb_disableDependentsState"/>
+    </declare-styleable></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values\dimens.xml" qualifiers=""><dimen name="preference_item_padding_inner">8dip</dimen><dimen name="preference_icon_minWidth">0dp</dimen><dimen name="preference_widget_width">48dp</dimen><dimen name="preference_item_padding_side">8dip</dimen></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values\strings.xml" qualifiers=""><string name="asb_switch_off">OFF</string><string name="asb_switch_on">ON</string></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values\styles.xml" qualifiers=""><style name="asb_Preference.SwitchPreference" parent="">
+        <item name="android:layout">@layout/preference</item>
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="asb_switchTextOn">@string/asb_switch_on</item>
+        <item name="asb_switchTextOff">@string/asb_switch_off</item>
+    </style></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values-land\dimens.xml" qualifiers="land"><dimen name="preference_widget_width">72dp</dimen></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values-large\dimens.xml" qualifiers="large"><dimen name="preference_widget_width">56dp</dimen></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values-sw720dp\dimens.xml" qualifiers="sw720dp"><dimen name="preference_icon_minWidth">56dp</dimen></file><file path="C:\Users\Administrator\Desktop\adad\library\res\values-sw720dp-w1280dp\dimens.xml" qualifiers="sw720dp-w1280dp"><dimen name="preference_widget_width">64dp</dimen></file></source><source path="C:\Users\Administrator\Desktop\adad\library\build\generated\res\rs\release"/><source path="C:\Users\Administrator\Desktop\adad\library\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="C:\Users\Administrator\Desktop\adad\library\build-types\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="asb_SwitchPreference"><attr format="reference" name="asb_summaryOn"/><attr format="reference" name="asb_summaryOff"/><attr format="reference" name="asb_switchTextOn"/><attr format="reference" name="asb_switchTextOff"/><attr format="boolean" name="asb_disableDependentsState"/></declare-styleable><declare-styleable name="asb_SwitchBackportTheme"><attr format="reference" name="asb_switchPreferenceStyle"/></declare-styleable></configuration></mergedItems></merger>

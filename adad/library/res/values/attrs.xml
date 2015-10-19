@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     This source is part of the
+          _____  ___   ____
+      __ / / _ \/ _ | / __/___  _______ _
+     / // / , _/ __ |/ _/_/ _ \/ __/ _ `/
+     \___/_/|_/_/ |_/_/ (_)___/_/  \_, /
+                                  /___/
+     repository.
+
+     Copyright (C) 2012 Benoit 'BoD' Lubek (BoD@JRAF.org).
+     Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <declare-styleable name="asb_SwitchPreference">
+        <!--
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is checked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        -->
+        <attr name="asb_summaryOn" format="reference" />
+        <!--
+             The summary for the Preference in a PreferenceActivity screen when the
+             SwitchPreference is unchecked. If separate on/off summaries are not
+             needed, the summary attribute can be used instead.
+        -->
+        <attr name="asb_summaryOff" format="reference" />
+        <!--
+             The text used on the switch itself when in the "on" state.
+             This should be a very SHORT string, as it appears in a small space.
+        -->
+        <attr name="asb_switchTextOn" format="reference" />
+        <!--
+             The text used on the switch itself when in the "off" state.
+             This should be a very SHORT string, as it appears in a small space.
+        -->
+        <attr name="asb_switchTextOff" format="reference" />
+        <!--
+             The state (true for on, or false for off) that causes dependents to be disabled. By default,
+             dependents will be disabled when this is unchecked, so the value of this preference is false.
+        -->
+        <attr name="asb_disableDependentsState" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="asb_SwitchBackportTheme">
+        <attr name="asb_switchPreferenceStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

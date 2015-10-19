@@ -1,0 +1,3 @@
+include ':adblockplusandroid-master'
+include ':library'
+include ':actionbarsherlock'
